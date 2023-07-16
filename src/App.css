@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@font-face {
+    font-family: Clash Display Variable;
+    src: url("./assets/Fonts/ClashDisplay-Variable.ttf");
+  }
+
+  @font-face {
+    font-family: Satoshi Variable;
+    src: url("./assets/Fonts/Satoshi-Variable.ttf");
+  }
+  
+ 
+
+  .owl-nav {
+    position: absolute;
+    top: -100px;
+    right: 0;
+  }
+  .owl-nav .owl-prev {
+    display: none;
+  }
+
+  .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .owl-dots .owl-dot span {
+    display: inline-block !important;
+    background-color: #2e314b !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 4px;
+  }
+
+  .owl-dots .active span {
+    display: inline-block !important;
+    background-color: rgba(21, 191, 253, 0.7) !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .owl-carousel .owl-stage-outer { 
+overflow: visible; 
+}
+
+  .right_fixd_carousel .owl-carousel .owl-stage-outer {
+    margin-right: -1000px;
+  }
+  @media screen and (min-width: 1024px) {
+    .lg\:shadow-none {
+      box-shadow: none !important;
+    }
+  }
+
+
+  
